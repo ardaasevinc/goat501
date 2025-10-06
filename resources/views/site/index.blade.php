@@ -167,7 +167,7 @@
                 <div class="center-block-home">
                     <!-- play video button start -->
                     <div class="video-play-btn-wrapper">
-                        <a class="" data-lity="" href="https://www.youtube.com/watch?v=i33VfRLKAtA">
+                        <a class="" data-lity="" href="https://www.youtube.com/watch?v=xkCZ1hexHns">
                             <div class="video-play-btn">
                                 <i class="icon-play"></i>
                             </div>
