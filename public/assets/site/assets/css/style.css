@@ -286,7 +286,7 @@ line-height: 1.5;
 }
 
 a {
-color: #5D7674;
+color: #A2C0BE;
 text-decoration: none;
 outline: none;
  -webkit-font-smoothing: antialiased;
@@ -307,7 +307,7 @@ a:hover,
 a:visited,
 a:active,
 a:focus {
-color: #5D7674;
+color: #A2C0BE;
 text-decoration: none;
 outline: none;
 font-weight: 600;
@@ -344,7 +344,7 @@ line-height: 2;
 
 p a,
 p a:hover {
-color: #5D7674;
+color: #A2C0BE;
 text-decoration: none;
 outline: none;
 font-weight: 600;
@@ -362,12 +362,12 @@ font-weight: bold;
 }
 
 ::-moz-selection {
-background: #5D7674;
+background: #A2C0BE;
 color: #fff;
 }
 
 ::selection {
-background: #5D7674;
+background: #A2C0BE;
 color: #fff;
 }
 
@@ -500,7 +500,7 @@ bottom: 0;
 left: 0;
 width: 100%;
 height: 1px;
-background: #5D7674;
+background: #A2C0BE;
 -webkit-transform-origin: right center;
    -moz-transform-origin: right center;
     -ms-transform-origin: right center;
@@ -1425,13 +1425,13 @@ color: #fff;
 }
 
 .icon-works a:hover {
-background: #5D7674;
-border: 1px solid #5D7674;
+background: #A2C0BE;
+border: 1px solid #A2C0BE;
 color: #fff;
 }
 
 .icon-works a:hover:after {
-background: #5D7674;	
+background: #A2C0BE;	
 }
 
 .image-works:hover .icon-works {
@@ -1620,7 +1620,7 @@ letter-spacing: 1px;
 /* 15.1. contact content */
 .contact-content a,
 .contact-content a:hover {
-color: #5D7674;
+color: #A2C0BE;
 }
 
 .contact-content {
@@ -1925,7 +1925,7 @@ letter-spacing: 1px;
 /* 16.1. instagram feed content */
 .instagram-feed-content a,
 .instagram-feed-content a:hover {
-color: #5D7674;
+color: #A2C0BE;
 }
 
 .instagram-feed-content {
@@ -2703,7 +2703,7 @@ margin: 0 auto;
 width: 0;
 height: 0;
 border-top: 15px solid transparent;
-border-left: 22px solid #5D7674;
+border-left: 22px solid #A2C0BE;
 border-bottom: 15px solid transparent;
 margin-left: 8px;
 -webkit-transition: all 0.25s ease;
@@ -2724,7 +2724,7 @@ display: -o-flex;
 display: flex;
 justify-content: center;
 align-items: center;
-border: 2px solid #5D7674;
+border: 2px solid #A2C0BE;
 -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
         border-radius: 50%;
@@ -2774,7 +2774,7 @@ width: 60px;
 height: 60px;
 left: 50%;
 top: 50%;
-border: 1px solid #5D7674;
+border: 1px solid #A2C0BE;
 -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
 -webkit-border-radius: 50%;
@@ -2794,7 +2794,7 @@ width: 60px;
 height: 60px;
 left: 50%;
 top: 50%;
-border: 1px solid #5D7674;
+border: 1px solid #A2C0BE;
 -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
 -webkit-border-radius: 50%;
@@ -3872,7 +3872,7 @@ margin: -1px 0 0 0;
 }
 
 .post-title-color {
-color: #5D7674;
+color: #A2C0BE;
 }
 
 .post-title {
@@ -4014,7 +4014,7 @@ display: block;
 font-size: 9px;
 text-transform: uppercase;
 font-weight: 600;
-color: #5D7674;
+color: #A2C0BE;
 margin: 0 0 0 5px;
 padding: 0;
 letter-spacing: 0.15em;

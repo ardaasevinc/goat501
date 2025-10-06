@@ -10,6 +10,12 @@
     <meta content="" name="author">
     <meta content="" name="keywords">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('assets/site/assets/goat501/favicon.svg') }}">
+<link rel="alternate icon" type="image/png" href="{{ asset('assets/site/assets/goat501/favicon.png') }}">
+<link rel="apple-touch-icon" href="{{ asset('assets/site/assets/goat501/favicon.png') }}">
+
+<meta name="theme-color" content="#000000">
+
     <!-- Yesex v1.0 || ex nihilo || June 2019 -->
     <!-- style start -->
     <link href="assets/site/assets/css/plugins.css" media="all" rel="stylesheet" type="text/css">
