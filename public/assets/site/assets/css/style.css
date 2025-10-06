@@ -3624,11 +3624,11 @@ font-size: 200px;
 .logo {
 position: absolute;
 display: block;
-width: 59px;
+width: auto;
 height: 35px;
 top: 30px;
 left: 30px;
-background: url(../img/logo-light.) no-repeat;
+background: url(../img/logo-light.png) no-repeat;
 -webkit-transition: all 1.5s ease;
    -moz-transition: all 1.5s ease;
 	-ms-transition: all 1.5s ease;
