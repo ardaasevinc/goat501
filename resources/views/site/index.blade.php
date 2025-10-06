@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-        GOAT 501 | FILM
+        GOAT 501 | FILM | Evrim Çervatoğlu
     </title>
     <meta content="" name="description">
     <meta content="" name="author">
