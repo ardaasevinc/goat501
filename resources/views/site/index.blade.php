@@ -62,7 +62,7 @@
         </div><!-- contact launcher end -->
         <!-- instagram feed launcher start -->
         <div class="instagram-feed fadeIn-element">
-            <a class="toggle-instagram-feed-content"><span>Instagram Feed</span></a>
+            <a href="https://instagram.com/goat501"><span>Instagram Feed</span></a>
         </div><!-- instagram feed launcher end -->
     </div><!-- border bottom menu end -->
     <!-- border bottom menu mobile start -->
