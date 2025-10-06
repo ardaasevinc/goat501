@@ -68,7 +68,7 @@
         </div><!-- contact launcher end -->
         <!-- instagram feed launcher start -->
         <div class="instagram-feed fadeIn-element">
-            <a href="https://instagram.com/goat501"><span>Instagram Feed</span></a>
+            <a href="https://instagram.com/goat501"><span>Instagram</span></a>
         </div><!-- instagram feed launcher end -->
     </div><!-- border bottom menu end -->
     <!-- border bottom menu mobile start -->
@@ -120,12 +120,7 @@
         <div class="left-element left-position">
             <!-- social icons start -->
             <ul>
-                <li>
-                    <a class="ion-social-twitter" href="#"><span>Twitter</span></a>
-                </li>
-                <li>
-                    <a class="ion-social-facebook" href="#"><span>Facebook</span></a>
-                </li>
+               
                 <li>
                     <a class="ion-social-instagram" href="#"><span>Instagram</span></a>
                 </li>
