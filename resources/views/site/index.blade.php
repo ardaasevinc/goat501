@@ -122,7 +122,7 @@
             <ul>
                
                 <li>
-                    <a class="ion-social-instagram" href="#"><span>Instagram</span></a>
+                    <a class="ion-social-instagram" href="https://instagram.com/goat501"><span>Instagram</span></a>
                 </li>
             </ul><!-- social icons end -->
         </div><!-- left element social end -->
