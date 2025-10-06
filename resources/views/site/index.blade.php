@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-        Yesex - Creative One Page Portfolio Template
+        GOAT 501 | FILM
     </title>
     <meta content="" name="description">
     <meta content="" name="author">
