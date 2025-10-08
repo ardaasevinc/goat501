@@ -68,7 +68,7 @@
         </div><!-- contact launcher end -->
         <!-- instagram feed launcher start -->
         <div class="instagram-feed fadeIn-element">
-            <a href="https://instagram.com/goat501"><span>Instagram</span></a>
+            <a href="https://instagram.com/keci501"><span>Instagram</span></a>
         </div><!-- instagram feed launcher end -->
     </div><!-- border bottom menu end -->
     <!-- border bottom menu mobile start -->
