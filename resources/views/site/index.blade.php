@@ -11,10 +11,10 @@
     <meta content="" name="keywords">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <link rel="icon" type="image/svg+xml" href="{{ asset('assets/site/assets/goat501/favicon.svg') }}">
-<link rel="alternate icon" type="image/png" href="{{ asset('assets/site/assets/goat501/favicon.svg') }}">
-<link rel="apple-touch-icon" href="{{ asset('assets/site/assets/goat501/favicon.png') }}">
+    <link rel="alternate icon" type="image/png" href="{{ asset('assets/site/assets/goat501/favicon.svg') }}">
+    <link rel="apple-touch-icon" href="{{ asset('assets/site/assets/goat501/favicon.png') }}">
 
-<meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="#000000">
 
     <!-- Yesex v1.0 || ex nihilo || June 2019 -->
     <!-- style start -->
@@ -79,7 +79,7 @@
                 <ul>
                     <li>
 
-                    
+
                         <ul>
                             <li class="lifting">
                                 <a href="#home">Home</a>
@@ -120,7 +120,7 @@
         <div class="left-element left-position">
             <!-- social icons start -->
             <ul>
-               
+
                 <li>
                     <a class="ion-social-instagram" href="https://instagram.com/goat501"><span>Instagram</span></a>
                 </li>
@@ -137,8 +137,8 @@
                     <!-- Vimeo video URL start -->
                     <iframe data-fullscreeneo=""
                         src="https://player.vimeo.com/video/1125656956?autoplay=1&amp;background=1&amp;hd=1&amp;loop=1"></iframe><!-- Vimeo video URL end -->
-                
-                
+
+
                 </div><!-- Vimeo video containment end -->
                 <!-- Vimeo video mobile IMG start -->
                 <div class="vimeo-bg"></div><!-- Vimeo video mobile IMG end -->
@@ -458,7 +458,7 @@
                                         Length: 70 minutes <br>
                                     </div><!-- col end -->
                                     <div class="col-md-6 col-lg-6 post-block-correction">
-                                        <img  src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" alt="">
+                                        <img src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" alt="">
                                     </div><!-- col end -->
                                 </div><!-- post block end -->
                             </div><!-- post carousel end -->
@@ -604,32 +604,37 @@
                                     <div class="col-md-12 col-lg-12 post-block-correction">
                                         <!-- post item 1 start -->
                                         <div class="row g-3">
-                                            <div class="col-6 col-md-3 col-lg-3 col-sm-6">
-                                                <img  style="height:200px;" src="{{ asset('assets/site/assets/goat501/award1.png') }}" alt="Goat 501 still 1"
-                                                    class="img-fluid rounded">
+                                            <div class="col-6 col-md-3">
+                                                <img style="height:200px; object-fit:cover; width:100%;"
+                                                    src="{{ asset('assets/site/assets/goat501/award1.png') }}"
+                                                    alt="Goat 501 award 1" class="img-fluid rounded">
                                             </div>
-                                            <div class="col-6 col-md-3 col-lg-3 col-sm-6">
-                                                <img style="height:200px;" src="{{ asset('assets/site/assets/goat501/award2.png') }}" alt="Goat 501 still 2"
-                                                    class="img-fluid rounded">
+                                            <div class="col-6 col-md-3">
+                                                <img style="height:200px; object-fit:cover; width:100%;"
+                                                    src="{{ asset('assets/site/assets/goat501/award2.png') }}"
+                                                    alt="Goat 501 award 2" class="img-fluid rounded">
                                             </div>
-                                            <div class="col-6 col-md-3 col-lg-3 col-sm-6">
-                                                <img  style="height:200px;" src="{{ asset('assets/site/assets/goat501/award3.png') }}" alt="Goat 501 still 3"
-                                                    class="img-fluid rounded">
+                                            <div class="col-6 col-md-3">
+                                                <img style="height:200px; object-fit:cover; width:100%;"
+                                                    src="{{ asset('assets/site/assets/goat501/award3.png') }}"
+                                                    alt="Goat 501 award 3" class="img-fluid rounded">
                                             </div>
-                                            <div class="col-6 col-md-3 col-lg-3 col-sm-6">
-                                                <img style="height:200px;" src="{{ asset('assets/site/assets/goat501/award4.png') }}" alt="Goat 501 still 4"
-                                                    class="img-fluid rounded">
+                                            <div class="col-6 col-md-3">
+                                                <img style="height:200px; object-fit:cover; width:100%;"
+                                                    src="{{ asset('assets/site/assets/goat501/award4.png') }}"
+                                                    alt="Goat 501 award 4" class="img-fluid rounded">
                                             </div>
                                         </div>
+
                                     </div><!-- col end -->
 
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
-                                    
+
                                 </div><!-- post block end -->
-                            
-                                
-                               
+
+
+
                             </div><!-- post carousel end -->
                         </div><!-- col end -->
                     </div><!-- row end -->
