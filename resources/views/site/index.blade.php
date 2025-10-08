@@ -457,7 +457,7 @@
                                         Genre: Docudrama / Feature Film <br>
                                         Length: 70 minutes <br>
                                     </div><!-- col end -->
-                                   <div class="col-md-6 col-lg-6 post-block-correction">
+                                   <div class="col-md-6 col-lg-6 post-block-correction mt-2">
                                         <img src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" alt="">
                                     </div><!-- col end -->
                                 </div><!-- post block end -->
