@@ -18,8 +18,8 @@
 
     <!-- Yesex v1.0 || ex nihilo || June 2019 -->
     <!-- style start -->
-    <link href="assets/site/assets/css/plugins.css" media="all" rel="stylesheet" type="text/css">
-    <link href="assets/site/assets/css/style.css" media="all" rel="stylesheet" type="text/css"><!-- style end -->
+    <link href="{{ asset('assets/site/assets/css/plugins.css') }}" media="all" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/site/assets/css/style.css') }}" media="all" rel="stylesheet" type="text/css"><!-- style end -->
     <!-- google fonts start -->
     <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7COswald:300,400,700"
         rel="stylesheet" type="text/css"><!-- google fonts end -->
@@ -855,9 +855,9 @@
         </div><!-- news modal content 4 end -->
     </div><!-- news modal 4 end --> --}}
     <!-- scripts start -->
-    <script src="assets/site/assets/js/plugins.js" type="text/javascript">
+    <script src="{{ asset('assets/site/assets/js/plugins.js') }}" type="text/javascript">
     </script>
-    <script src="assets/site/assets/js/yesex.js" type="text/javascript">
+    <script src="{{ asset('assets/site/assets/js/yesex.js') }}" type="text/javascript">
     </script><!-- scripts end -->
 </body>
 
