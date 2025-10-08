@@ -602,32 +602,34 @@
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
                                     <!-- col start -->
                                     <div class="col-md-12 col-lg-12 post-block-correction">
-                                        <!-- post item 1 start -->
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <img style="height:200px; object-fit:cover; width:100%;"
-                                                    src="{{ asset('assets/site/assets/goat501/award1.png') }}"
-                                                    alt="Goat 501 award 1" class="img-fluid">
-                                            </div>
-                                            <div class="col-6">
-                                                <img style="height:200px; object-fit:cover; width:100%;"
-                                                    src="{{ asset('assets/site/assets/goat501/award2.png') }}"
-                                                    alt="Goat 501 award 2" class="img-fluid">
-                                            </div>
-                                            <div class="col-6">
-                                                <img style="height:200px; object-fit:cover; width:100%;"
-                                                    src="{{ asset('assets/site/assets/goat501/award3.png') }}"
-                                                    alt="Goat 501 award 3" class="img-fluid">
-                                            </div>
-                                            <div class="col-6">
-                                                <img style="height:200px; object-fit:cover; width:100%;"
-                                                    src="{{ asset('assets/site/assets/goat501/award4.png') }}"
-                                                    alt="Goat 501 award 4" class="img-fluid">
-                                            </div>
-                                        </div>
+    <div class="row g-3">
+        <div class="col-6">
+            <img style="height:200px; width:100%; object-fit:contain; background-color:#000;" 
+                src="{{ asset('assets/site/assets/goat501/award1.png') }}" 
+                alt="Goat 501 award 1" 
+                class="img-fluid rounded">
+        </div>
+        <div class="col-6">
+            <img style="height:200px; width:100%; object-fit:contain; background-color:#000;" 
+                src="{{ asset('assets/site/assets/goat501/award2.png') }}" 
+                alt="Goat 501 award 2" 
+                class="img-fluid rounded">
+        </div>
+        <div class="col-6">
+            <img style="height:200px; width:100%; object-fit:contain; background-color:#000;" 
+                src="{{ asset('assets/site/assets/goat501/award3.png') }}" 
+                alt="Goat 501 award 3" 
+                class="img-fluid rounded">
+        </div>
+        <div class="col-6">
+            <img style="height:200px; width:100%; object-fit:contain; background-color:#000;" 
+                src="{{ asset('assets/site/assets/goat501/award4.png') }}" 
+                alt="Goat 501 award 4" 
+                class="img-fluid rounded">
+        </div>
+    </div>
+</div>
 
-
-                                    </div><!-- col end -->
 
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
