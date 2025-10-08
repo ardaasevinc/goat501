@@ -512,10 +512,6 @@
                                 <div class="post-block-second">
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
-                                     <div class="col-md-6 col-lg-6 post-block-correction order-1 order-md-2">
-                                        <!-- post item IMG 2 start -->
-                                        <img src="{{ asset('assets/site/assets/goat501/evrim.jpg') }}" alt="">
-                                    </div><!-- col end -->
                                     <!-- col start -->
                                     <div class="col-md-6 col-lg-6 post-block-correction">
                                         <p>
@@ -550,7 +546,10 @@
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
                                     <!-- col start -->
-                                   
+                                    <div class="col-md-6 col-lg-6 post-block-correction order-1 order-md-2">
+                                        <!-- post item IMG 2 start -->
+                                        <img src="{{ asset('assets/site/assets/goat501/evrim.jpg') }}" alt="">
+                                    </div><!-- col end -->
                                 </div><!-- post block end -->
 
 
