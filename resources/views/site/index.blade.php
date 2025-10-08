@@ -457,7 +457,7 @@
                                         Genre: Docudrama / Feature Film <br>
                                         Length: 70 minutes <br>
                                     </div><!-- col end -->
-                                    <div class="col-md-6 col-lg-6 post-block-correction">
+                                   <div class="col-md-6 col-lg-6 post-block-correction order-1 order-md-2">
                                         <img src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" alt="">
                                     </div><!-- col end -->
                                 </div><!-- post block end -->
@@ -545,7 +545,7 @@
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
                                     <!-- col start -->
-                                    <div class="col-md-6 col-lg-6 post-block-correction">
+                                    <div class="col-md-6 col-lg-6 post-block-correction order-1 order-md-2">
                                         <!-- post item IMG 2 start -->
                                         <img src="{{ asset('assets/site/assets/goat501/evrim.jpg') }}" alt="">
                                     </div><!-- col end -->
