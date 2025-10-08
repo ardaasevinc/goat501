@@ -443,9 +443,7 @@
 
 
                         <!-- col start -->
-                         <div class="col-md-6 col-lg-6 post-block-correction">
-                                        <img src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" alt="">
-                                    </div><!-- col end -->
+                        
                         <div class="col-md-8 the-first-lift">
                             <!-- post carousel start -->
                             <div class="owl-carousel" id="services-carousel">
@@ -464,6 +462,9 @@
                                 </div><!-- post block end -->
                             </div><!-- post carousel end -->
                         </div><!-- col end -->
+                         <div class="col-md-6 col-lg-6 post-block-correction">
+                                        <img src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" alt="">
+                                    </div><!-- col end -->
 
 
                     </div><!-- row end -->
@@ -512,6 +513,10 @@
                                 <div class="post-block-second">
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
+                                     <div class="col-md-6 col-lg-6 post-block-correction order-1 order-md-2">
+                                        <!-- post item IMG 2 start -->
+                                        <img src="{{ asset('assets/site/assets/goat501/evrim.jpg') }}" alt="">
+                                    </div><!-- col end -->
                                     <!-- col start -->
                                     <div class="col-md-6 col-lg-6 post-block-correction">
                                         <p>
@@ -546,10 +551,7 @@
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
                                     <!-- col start -->
-                                    <div class="col-md-6 col-lg-6 post-block-correction order-1 order-md-2">
-                                        <!-- post item IMG 2 start -->
-                                        <img src="{{ asset('assets/site/assets/goat501/evrim.jpg') }}" alt="">
-                                    </div><!-- col end -->
+                                   
                                 </div><!-- post block end -->
 
 
