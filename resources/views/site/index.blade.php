@@ -257,7 +257,7 @@
                 </div><!-- center block end -->
             </div><!-- center container end -->
         </div><!-- contact panel end -->
-        <!-- instagram feed panel start -->
+        {{-- <!-- instagram feed panel start -->
         <div class="panel-left-instagram-feed panel-left-bg-instagram-feed"></div>
         <div class="panel-right-instagram-feed">
             <!-- center container start -->
@@ -282,7 +282,7 @@
                     </div><!-- instagram feed content end -->
                 </div><!-- center block end -->
             </div><!-- center container end -->
-        </div><!-- instagram feed panel end -->
+        </div><!-- instagram feed panel end --> --}}
         <!-- about section start -->
         <div id="about-lifting">
             <!-- container start -->
