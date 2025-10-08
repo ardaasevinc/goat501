@@ -436,7 +436,7 @@
                                 <span></span> GOAT 501
                             </h2><!-- page subtitle end -->
                             <!-- divider start -->
-                            <div class="inner-divider-half"></div><!-- divider end -->
+                            {{-- <div class="inner-divider-half"></div><!-- divider end --> --}}
                             <!-- owl nav start -->
                             {{-- <div class="owl-nav owl-nav-custom-services"></div><!-- owl nav end --> --}}
                         </div><!-- col end -->
