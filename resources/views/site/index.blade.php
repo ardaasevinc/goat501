@@ -639,7 +639,7 @@
             </div><!-- container end -->
         </div><!-- news section end -->
     </div><!-- main container end -->
-    <!-- news modal 1 start -->
+    {{-- <!-- news modal 1 start -->
     <div aria-hidden="true" class="news-modal modal fade" id="newsModal-1" role="dialog" tabindex="-1">
         <!-- news modal content 1 start -->
         <div class="modal-content">
@@ -853,7 +853,7 @@
                 </div><!-- row end -->
             </div><!-- container end -->
         </div><!-- news modal content 4 end -->
-    </div><!-- news modal 4 end -->
+    </div><!-- news modal 4 end --> --}}
     <!-- scripts start -->
     <script src="assets/site/assets/js/plugins.js" type="text/javascript">
     </script>
