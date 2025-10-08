@@ -605,19 +605,19 @@
                                         <!-- post item 1 start -->
                                         <div class="row g-3">
                                             <div class="col-6 col-md-3 col-lg-3 col-sm-6">
-                                                <img  style="width:200px;" src="{{ asset('assets/site/assets/goat501/award1.png') }}" alt="Goat 501 still 1"
+                                                <img  style="width:auto;" src="{{ asset('assets/site/assets/goat501/award1.png') }}" alt="Goat 501 still 1"
                                                     class="img-fluid rounded">
                                             </div>
                                             <div class="col-6 col-md-3 col-lg-3 col-sm-6">
-                                                <img style="width:200px;" src="{{ asset('assets/site/assets/goat501/award2.png') }}" alt="Goat 501 still 2"
+                                                <img style="width:auto;" src="{{ asset('assets/site/assets/goat501/award2.png') }}" alt="Goat 501 still 2"
                                                     class="img-fluid rounded">
                                             </div>
                                             <div class="col-6 col-md-3 col-lg-3 col-sm-6">
-                                                <img  style="width:200px;" src="{{ asset('assets/site/assets/goat501/award3.png') }}" alt="Goat 501 still 3"
+                                                <img  style="width:auto;" src="{{ asset('assets/site/assets/goat501/award3.png') }}" alt="Goat 501 still 3"
                                                     class="img-fluid rounded">
                                             </div>
                                             <div class="col-6 col-md-3 col-lg-3 col-sm-6">
-                                                <img style="width:200px;" src="{{ asset('assets/site/assets/goat501/award4.png') }}" alt="Goat 501 still 4"
+                                                <img style="width:auto;" src="{{ asset('assets/site/assets/goat501/award4.png') }}" alt="Goat 501 still 4"
                                                     class="img-fluid rounded">
                                             </div>
                                         </div>
