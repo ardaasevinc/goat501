@@ -463,7 +463,9 @@
                             </div><!-- post carousel end -->
                         </div><!-- col end -->
                          <div class="col-md-6 col-lg-6 post-block-correction">
-                                        <img src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" alt="">
+                                        <img src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" 
+     alt="Goat 501 cover image" 
+     class="img-fluid w-100 rounded">
                                     </div><!-- col end -->
 
 
