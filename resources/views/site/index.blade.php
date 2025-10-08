@@ -136,7 +136,9 @@
                 <div id="vimeo-videoContainment">
                     <!-- Vimeo video URL start -->
                     <iframe data-fullscreeneo=""
-                        src="https://player.vimeo.com/video/98929509?autoplay=1&amp;background=1&amp;hd=1&amp;loop=1"></iframe><!-- Vimeo video URL end -->
+                        src="https://player.vimeo.com/video/1125656956?autoplay=1&amp;background=1&amp;hd=1&amp;loop=1"></iframe><!-- Vimeo video URL end -->
+                
+                
                 </div><!-- Vimeo video containment end -->
                 <!-- Vimeo video mobile IMG start -->
                 <div class="vimeo-bg"></div><!-- Vimeo video mobile IMG end -->
@@ -311,7 +313,7 @@
                             <!-- divider start -->
                             <div class="inner-divider-half"></div><!-- divider end -->
                             <!-- owl nav start -->
-                            <div class="owl-nav owl-nav-custom-about"></div><!-- owl nav end -->
+                            {{-- <div class="owl-nav owl-nav-custom-about"></div><!-- owl nav end --> --}}
                         </div><!-- col end -->
                         <!-- col start -->
                         <div class="col-md-8 the-first-lift">
@@ -436,7 +438,7 @@
                             <!-- divider start -->
                             <div class="inner-divider-half"></div><!-- divider end -->
                             <!-- owl nav start -->
-                            <div class="owl-nav owl-nav-custom-services"></div><!-- owl nav end -->
+                            {{-- <div class="owl-nav owl-nav-custom-services"></div><!-- owl nav end --> --}}
                         </div><!-- col end -->
 
 
@@ -499,7 +501,7 @@
                             <!-- divider start -->
                             <div class="inner-divider-half"></div><!-- divider end -->
                             <!-- owl nav start -->
-                            <div class="owl-nav owl-nav-custom-works"></div><!-- owl nav end -->
+                            {{-- <div class="owl-nav owl-nav-custom-works"></div><!-- owl nav end --> --}}
                         </div><!-- col end -->
                         <!-- col start -->
                         <div class="col-md-8 the-first-lift">
@@ -588,7 +590,7 @@
                             <!-- divider start -->
                             <div class="inner-divider-half"></div><!-- divider end -->
                             <!-- owl nav start -->
-                            <div class="owl-nav owl-nav-custom-news"></div><!-- owl nav end -->
+                            {{-- <div class="owl-nav owl-nav-custom-news"></div><!-- owl nav end --> --}}
                         </div><!-- col end -->
                         <!-- col start -->
                         <div class="col-md-8 the-first-lift">
