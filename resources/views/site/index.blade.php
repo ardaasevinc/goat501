@@ -615,10 +615,7 @@
                                                 <img src="{{ asset('assets/site/assets/goat501/award3.png') }}"
                                                     alt="Goat 501 award 3" class="img-fluid rounded w-100">
                                             </div>
-                                            <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award4.png') }}"
-                                                    alt="Goat 501 award 4" class="img-fluid rounded w-100">
-                                            </div>
+                                           
                                              <div class="col-6 col-md-3">
                                                 <img src="{{ asset('assets/site/assets/goat501/award5.png') }}"
                                                     alt="Goat 501 award 4" class="img-fluid rounded w-100">
