@@ -136,8 +136,7 @@
                 <div id="vimeo-videoContainment">
                     <!-- Vimeo video URL start -->
                     <iframe data-fullscreeneo=""
-                        src="https://player.vimeo.com/video/1125656956?autoplay=1&amp;background=1&amp;hd=1&amp;loop=1"></iframe><!-- Vimeo video URL end -->
-
+                        src="https://player.vimeo.com/video/1125768981?autoplay=1&amp;background=1&amp;hd=1&amp;loop=1"></iframe><!-- Vimeo video URL end -->
 
                 </div><!-- Vimeo video containment end -->
                 <!-- Vimeo video mobile IMG start -->
