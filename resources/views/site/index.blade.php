@@ -457,7 +457,7 @@
                                         Length: 70 minutes <br>
                                     </div><!-- col end -->
                                    <div class="col-md-6 col-lg-6 post-block-correction mt-2">
-                                        <img src="{{ asset('assets/site/assets/goat501/cover.jpeg') }}" alt="">
+                                        <img src="{{ asset('assets/site/assets/goat501/film-cover.png') }}" alt="">
                                     </div><!-- col end -->
                                 </div><!-- post block end -->
                             </div><!-- post carousel end -->
