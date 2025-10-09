@@ -495,7 +495,7 @@
                             <div class="inner-divider-half"></div><!-- divider end -->
                             <!-- page subtitle start -->
                             <h2 class="section-heading section-heading-all section-heading-dark">
-                                <span></span> Evrim Çervatoğlu
+                                <span></span> EVRİM ÇERVATOĞLU
                             </h2><!-- page subtitle end -->
                             <!-- divider start -->
                             <div class="inner-divider-half"></div><!-- divider end -->
@@ -617,6 +617,10 @@
                                             </div>
                                             <div class="col-6">
                                                 <img src="{{ asset('assets/site/assets/goat501/award4.png') }}"
+                                                    alt="Goat 501 award 4" class="img-fluid rounded w-100">
+                                            </div>
+                                             <div class="col-6">
+                                                <img src="{{ asset('assets/site/assets/goat501/award5.png') }}"
                                                     alt="Goat 501 award 4" class="img-fluid rounded w-100">
                                             </div>
                                         </div>
