@@ -605,9 +605,9 @@
                                     <div class="col-12 post-block-correction">
                                         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
                                             @foreach(range(1, 7) as $i)
-                                                <div class="col-6 col-md-4 col-lg-3">
+                                                <div class="col-6 col-md-4 col-lg-4">
                                                     <img src="{{ asset("assets/site/assets/goat501/award{$i}.png") }}"
-                                                        alt="Goat 501 award {{ $i }}" class="img-fluid rounded w-100">
+                                                        alt="Goat 501 award {{ $i }}" class="img-fluid w-100">
                                                 </div>
                                             @endforeach
                                         </div>
