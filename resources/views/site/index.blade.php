@@ -82,6 +82,10 @@
 
 
                         <ul>
+                            
+                                <img src="{{ asset('assets/site/assets/goat501/film-cover.png') }}" alt="" style="width:120px;">
+                            
+
                             <li class="lifting">
                                 <a href="#home">Home</a>
                             </li>
