@@ -614,12 +614,24 @@
                                             <div class="col-6 col-md-3">
                                                 <img src="{{ asset('assets/site/assets/goat501/award3.png') }}"
                                                     alt="Goat 501 award 3" class="img-fluid rounded w-100">
-                                            </div>
-                                           
+                                            </div>                                          
                                              <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award5.png') }}"
+                                                <img src="{{ asset('assets/site/assets/goat501/award4.png') }}"
                                                     alt="Goat 501 award 4" class="img-fluid rounded w-100">
                                             </div>
+                                             <div class="col-6 col-md-3">
+                                                <img src="{{ asset('assets/site/assets/goat501/award5.png') }}"
+                                                    alt="Goat 501 award 5" class="img-fluid rounded w-100">
+                                            </div>
+                                             <div class="col-6 col-md-3">
+                                                <img src="{{ asset('assets/site/assets/goat501/award6.png') }}"
+                                                    alt="Goat 501 award 6" class="img-fluid rounded w-100">
+                                            </div>
+                                             <div class="col-6 col-md-3">
+                                                <img src="{{ asset('assets/site/assets/goat501/award7.png') }}"
+                                                    alt="Goat 501 award 7" class="img-fluid rounded w-100">
+                                            </div>
+                                            
                                         </div>
                                     </div>
 
