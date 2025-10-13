@@ -107,7 +107,7 @@
         </div><!-- menu mobile end -->
         <!-- instagram feed mobile launcher start -->
         <div class="instagram-feed-mobile-launcher toggle-instagram-feed-content">
-            <a class="ion-social-instagram" href="#"></a>
+            <a class="ion-social-instagram" href="https://www.instagram.com/keci501/"></a>
         </div><!-- instagram feed mobile launcher end -->
     </div><!-- border bottom menu mobile end -->
     <!-- main container start -->
@@ -123,7 +123,7 @@
             <ul>
 
                 <li>
-                    <a class="ion-social-instagram" href="https://instagram.com/goat501"><span>Instagram</span></a>
+                    <a class="ion-social-instagram" href="https://www.instagram.com/keci501/"><span>Instagram</span></a>
                 </li>
             </ul><!-- social icons end -->
         </div><!-- left element social end -->
