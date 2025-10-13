@@ -19,7 +19,8 @@
     <!-- Yesex v1.0 || ex nihilo || June 2019 -->
     <!-- style start -->
     <link href="{{ asset('assets/site/assets/css/plugins.css') }}" media="all" rel="stylesheet" type="text/css">
-    <link href="{{ asset('assets/site/assets/css/style.css') }}" media="all" rel="stylesheet" type="text/css"><!-- style end -->
+    <link href="{{ asset('assets/site/assets/css/style.css') }}" media="all" rel="stylesheet" type="text/css">
+    <!-- style end -->
     <!-- google fonts start -->
     <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7COswald:300,400,700"
         rel="stylesheet" type="text/css"><!-- google fonts end -->
@@ -456,7 +457,7 @@
                                         Genre: Docudrama / Feature Film <br>
                                         Length: 70 minutes <br>
                                     </div><!-- col end -->
-                                   <div class="col-md-6 col-lg-6 post-block-correction mt-2">
+                                    <div class="col-md-6 col-lg-6 post-block-correction mt-2">
                                         <img src="{{ asset('assets/site/assets/goat501/film-cover.png') }}" alt="">
                                     </div><!-- col end -->
                                 </div><!-- post block end -->
@@ -510,7 +511,7 @@
                                 <div class="post-block-second">
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
-                                     <!-- col start -->
+                                    <!-- col start -->
                                     <div class="col-md-6 col-lg-6 post-block-correction order-1 order-md-2">
                                         <!-- post item IMG 2 start -->
                                         <img src="{{ asset('assets/site/assets/goat501/evrim.jpg') }}" alt="">
@@ -548,7 +549,7 @@
                                     </div><!-- col end -->
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
-                                   
+
                                 </div><!-- post block end -->
 
 
@@ -601,39 +602,17 @@
                                     <!-- mobile divider start -->
                                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
                                     <!-- col start -->
-                                    <div class="col-md-12 col-lg-12 post-block-correction">
-                                        <div class="row">
-                                            <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award1.png') }}"
-                                                    alt="Goat 501 award 1" class="img-fluid rounded w-100">
-                                            </div>
-                                            <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award2.png') }}"
-                                                    alt="Goat 501 award 2" class="img-fluid rounded w-100">
-                                            </div>
-                                            <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award3.png') }}"
-                                                    alt="Goat 501 award 3" class="img-fluid rounded w-100">
-                                            </div>                                          
-                                             <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award4.png') }}"
-                                                    alt="Goat 501 award 4" class="img-fluid rounded w-100">
-                                            </div>
-                                             <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award5.png') }}"
-                                                    alt="Goat 501 award 5" class="img-fluid rounded w-100">
-                                            </div>
-                                             <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award6.png') }}"
-                                                    alt="Goat 501 award 6" class="img-fluid rounded w-100">
-                                            </div>
-                                             <div class="col-6 col-md-3">
-                                                <img src="{{ asset('assets/site/assets/goat501/award7.png') }}"
-                                                    alt="Goat 501 award 7" class="img-fluid rounded w-100">
-                                            </div>
-                                            
+                                    <div class="col-12 post-block-correction">
+                                        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
+                                            @foreach(range(1, 7) as $i)
+                                                <div class="col-6 col-md-4 col-lg-3">
+                                                    <img src="{{ asset("assets/site/assets/goat501/award{$i}.png") }}"
+                                                        alt="Goat 501 award {{ $i }}" class="img-fluid rounded w-100">
+                                                </div>
+                                            @endforeach
                                         </div>
                                     </div>
+
 
 
                                     <!-- mobile divider start -->
