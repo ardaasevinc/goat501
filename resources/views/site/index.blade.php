@@ -59,6 +59,9 @@
                         <li>
                             <a href="#news">Awards</a>
                         </li>
+                        <li>
+                            <a href="#arda">News</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -95,6 +98,9 @@
                             </li>
                             <li class="lifting">
                                 <a href="#works">Director</a>
+                            </li>
+                             <li class="lifting">
+                                <a href="#arda">News</a>
                             </li>
                             <li class="lifting">
                                 <a href="#news">Awards</a>
@@ -564,6 +570,137 @@
             </div><!-- container end -->
         </div><!-- works section end -->
         <!-- news section start -->
+
+
+
+
+ <!-- news -->
+        <!-- works section start -->
+        <div id="arda-lifting">
+            <!-- container start -->
+            <div class="container-fluid" id="arda">
+                <!-- lifting inner start -->
+                <div class="all-lifting-inner">
+                    <!-- mobile divider start -->
+                    <div class="inner-divider-mobile"></div><!-- mobile divider end -->
+                    <!-- row start -->
+                    <div class="row">
+                        <!-- col start -->
+                        <div class="col-md-4 post-block">
+                            <!-- page title wrapper start -->
+                            <div class="page-title page-title-works">
+                                <!-- page title start -->
+                                <div class="page-title-content page-title-all">
+                                    <h1 class="post-title post-title-works-main-title">
+                                        Basında Biz
+                                    </h1>
+                                </div><!-- page title end -->
+                            </div><!-- page title wrapper end -->
+                            <!-- divider start -->
+                            <div class="inner-divider-half"></div><!-- divider end -->
+                            <!-- page subtitle start -->
+                            <h2 class="section-heading section-heading-all section-heading-dark">
+                                <span></span> “Keçi 501” filmi dünya prömiyerini yapacak
+Kültür Sanat
+
+                            </h2><!-- page subtitle end -->
+                            <!-- divider start -->
+                             <!-- divider start -->
+                                <div class="inner-divider-half"></div><!-- divider end -->
+                                <!-- owl nav start -->
+                                <div class="owl-nav owl-nav-custom-news"></div><!-- owl nav end -->
+                        </div><!-- col end -->
+                        
+                        
+                        
+                        
+                        <!-- col start -->
+                            <div class="col-md-8 the-first-lift">
+                                <!-- post carousel start -->
+                                <div class="owl-carousel" id="news-carousel">
+                                    
+                                    
+                                    
+                                    
+                                    <!-- post block start -->
+                                    <div class="post-block-second">
+                                        <!-- mobile divider start -->
+                                        <div class="inner-divider-mobile"></div><!-- mobile divider end -->
+                                        <!-- col start -->
+                                        <div class="col-md-6 col-lg-6 post-block-correction">
+                                            <!-- post item 1 start -->
+                                            <div class="post-inner">
+                                                <div class="post-content">
+                                                    <!-- col start -->
+                                                    <div class="post-txt services-txt">
+                                                        <!-- page subtitle start -->
+                                                        <h4 class="post-heading post-heading-all">
+                                                            Beauty / Fashion
+                                                        </h4><!-- page subtitle end -->
+                                                        <!-- divider start -->
+                                                        <div class="inner-divider-half"></div><!-- divider end -->
+                                                        <!-- page title start -->
+                                                        <div class="post-title post-title-news">
+                                                            Simplicity is <span class="post-title-color">complex</span>
+                                                        </div><!-- page title end -->
+                                                        <!-- divider start -->
+                                                        <div class="inner-divider-half"></div><!-- divider end -->
+                                                        <!-- overline start -->
+                                                        <div class="the-overline"></div><!-- overline end -->
+                                                        <!-- divider start -->
+                                                        <div class="inner-divider-half"></div><!-- divider end -->
+                                                        <!-- page TXT start -->
+                                                        <p>
+                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <a class="link-underline" href=
+                                                            "#">industry's standard
+                                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum officia doloribus, necessitatibus perspiciatis saepe nam tenetur ipsa dolor accusantium accusamus incidunt earum possimus quaerat sapiente sint porro, delectus ullam assumenda? Quam, nobis. Aliquam magnam exercitationem rem culpa iure distinctio, molestias quis, vero fuga, quos reprehenderit officia natus eius delectus qui.</a>.
+                                                        </p><!-- page TXT end -->
+                                                    </div><!-- col end -->
+                                                    <!-- divider start -->
+                                                    <div class="inner-divider-half"></div><!-- divider end -->
+                                                    <!-- button start -->
+                                                    <div class="button-the-wrapper">
+                                                        <a class="button-the" data-toggle="modal" href="#newsModal-1">Read more</a>
+                                                    </div><!-- button end -->
+                                                </div>
+                                            </div><!-- post item 1 end -->
+                                        </div><!-- col end -->
+                                        <!-- mobile divider start -->
+                                        <div class="inner-divider-mobile"></div><!-- mobile divider end -->
+                                        <!-- col start -->
+                                        <div class="col-md-6 col-lg-6 post-block-correction">
+                                            <!-- post item IMG 1 start -->
+                                            <div class="post-box">
+                                                <div class="post-box-photo-news post-box-photo-news-1 image-works">
+                                                    <!-- hover effect start -->
+                                                    <div class="hover-effect"></div><!-- hover effect end -->
+                                                    <div class="icon-works">
+                                                        <a class="iw-slide-left ion-image popup-photo-single fixed" href="img/news/large/news-1.jpg" title="Image description"></a> <a class=
+                                                        "iw-slide-right ion-share" href="#"></a>
+                                                    </div>
+                                                </div>
+                                            </div><!-- post item IMG 1 end -->
+                                        </div><!-- col end -->
+                                    </div><!-- post block end -->
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div><!-- post carousel end -->
+                            </div><!-- col end -->
+                    </div><!-- row end -->
+                    <!-- mobile divider start -->
+                    <div class="inner-divider-mobile"></div><!-- mobile divider end -->
+                </div><!-- lifting inner end -->
+            </div><!-- container end -->
+        </div><!-- works section end -->
+        <!-- news section start -->
+
+
+ <!-- news -->
+
         <div id="news-lifting">
             <!-- container start -->
             <div class="container-fluid" id="news">

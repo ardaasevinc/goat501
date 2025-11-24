@@ -90,6 +90,9 @@ $(function() {
 			if (hash == "#news") {
                 openPopup(hash);
             }
+            if (hash == "#arda") {
+                openPopup(hash);
+            }
         } else {
             if (hash == "#home") {
                 openAndClose(hash);
@@ -105,6 +108,9 @@ $(function() {
                 openAndClose(hash);
             }
 			if (hash == "#news") {
+                openAndClose(hash);
+            }
+            if (hash == "#arda") {
                 openAndClose(hash);
             }
         }
@@ -213,6 +219,34 @@ $(function() {
     });
 	// 5.4. owl news carousel
     $("#news-carousel").owlCarousel({
+        // loop: true,
+		loop: false,
+        center: false,
+        items: 1,
+        margin: 20,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        autoplayTimeout: 4000,
+        smartSpeed: 450,
+        nav: true,
+        navText: ["<i class='owl-custom ion-chevron-left'></i>", "<i class='owl-custom ion-chevron-right'></i>"],
+        navContainer: '.owl-nav-custom-news',
+        autoplayHoverPause: false,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+
+    $("#arda-carousel").owlCarousel({
         // loop: true,
 		loop: false,
         center: false,

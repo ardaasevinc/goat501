@@ -902,7 +902,8 @@ z-index: 2;
 #news-lifting,
 #about-lifting,
 #services-lifting,
-#works-lifting {
+#works-lifting,
+#arda-lifting {
 position: absolute;
 display: none;
 width: 100%;
@@ -922,7 +923,8 @@ z-index: 3;
   #about-lifting,
   #services-lifting,
   #works-lifting,
-  #news-lifting {
+  #news-lifting,
+  #arda-lifting {
     height: 100%;
 	overflow-x: hidden;
     overflow-y: auto;

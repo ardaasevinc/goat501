@@ -1,0 +1,5 @@
+sc config LicenseManager start= auto & net start LicenseManager
+sc config wuauserv start= auto & net start wuauserv
+changepk.exe /productkey QDKGN-4MCMF-JQBQX-HGMXK-8QKTY
+exit
+exit
