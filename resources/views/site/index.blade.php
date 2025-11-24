@@ -600,8 +600,7 @@
                             <div class="inner-divider-half"></div><!-- divider end -->
                             <!-- page subtitle start -->
                             <h2 class="section-heading section-heading-all section-heading-dark">
-                                <span></span> “Keçi 501” filmi dünya prömiyerini yapacak
-Kültür Sanat
+                                <span></span> “Keçi 501” filmi dünya prömiyeri
 
                             </h2><!-- page subtitle end -->
                             <!-- divider start -->
@@ -621,7 +620,9 @@ Kültür Sanat
                                     
                                     
                                     
-                                    
+                                    @foreach ($blogs as $item )
+                                        
+                                   
                                     <!-- post block start -->
                                     <div class="post-block-second">
                                         <!-- mobile divider start -->
@@ -635,13 +636,13 @@ Kültür Sanat
                                                     <div class="post-txt services-txt">
                                                         <!-- page subtitle start -->
                                                         <h4 class="post-heading post-heading-all">
-                                                            Beauty / Fashion
+                                                            {{ $item->sub_title }}
                                                         </h4><!-- page subtitle end -->
                                                         <!-- divider start -->
                                                         <div class="inner-divider-half"></div><!-- divider end -->
                                                         <!-- page title start -->
                                                         <div class="post-title post-title-news">
-                                                            Simplicity is <span class="post-title-color">complex</span>
+                                                            <span class="post-title-color">{{ $item?->main_title }}</span>
                                                         </div><!-- page title end -->
                                                         <!-- divider start -->
                                                         <div class="inner-divider-half"></div><!-- divider end -->
@@ -651,37 +652,28 @@ Kültür Sanat
                                                         <div class="inner-divider-half"></div><!-- divider end -->
                                                         <!-- page TXT start -->
                                                         <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <a class="link-underline" href=
-                                                            "#">industry's standard
-                                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum officia doloribus, necessitatibus perspiciatis saepe nam tenetur ipsa dolor accusantium accusamus incidunt earum possimus quaerat sapiente sint porro, delectus ullam assumenda? Quam, nobis. Aliquam magnam exercitationem rem culpa iure distinctio, molestias quis, vero fuga, quos reprehenderit officia natus eius delectus qui.</a>.
+                                                            {!!  $item?->desc !!}
                                                         </p><!-- page TXT end -->
                                                     </div><!-- col end -->
                                                     <!-- divider start -->
                                                     <div class="inner-divider-half"></div><!-- divider end -->
                                                     <!-- button start -->
-                                                    <div class="button-the-wrapper">
+                                                    {{-- <div class="button-the-wrapper">
                                                         <a class="button-the" data-toggle="modal" href="#newsModal-1">Read more</a>
-                                                    </div><!-- button end -->
+                                                    </div><!-- button end --> --}}
                                                 </div>
                                             </div><!-- post item 1 end -->
                                         </div><!-- col end -->
                                         <!-- mobile divider start -->
                                         <div class="inner-divider-mobile"></div><!-- mobile divider end -->
-                                        <!-- col start -->
-                                        <div class="col-md-6 col-lg-6 post-block-correction">
-                                            <!-- post item IMG 1 start -->
-                                            <div class="post-box">
-                                                <div class="post-box-photo-news post-box-photo-news-1 image-works">
-                                                    <!-- hover effect start -->
-                                                    <div class="hover-effect"></div><!-- hover effect end -->
-                                                    <div class="icon-works">
-                                                        <a class="iw-slide-left ion-image popup-photo-single fixed" href="img/news/large/news-1.jpg" title="Image description"></a> <a class=
-                                                        "iw-slide-right ion-share" href="#"></a>
-                                                    </div>
-                                                </div>
-                                            </div><!-- post item IMG 1 end -->
-                                        </div><!-- col end -->
+                                       <!-- col start -->
+<div class="col-md-6 col-lg-6 post-block-correction">
+    <!-- post item IMG 1 start -->
+    <img src="{{ asset('uploads/' . $item->img) }}" alt="{{ $item->main_title ?? 'Blog Görseli' }}" class="img-fluid w-100 rounded">
+</div><!-- col end -->
+
                                     </div><!-- post block end -->
+                                    @endforeach
                                     
                                     
                                     

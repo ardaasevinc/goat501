@@ -7,24 +7,20 @@ return [
     | Default Filesystem Disk
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the default filesystem disk that should be used
-    | by the framework. The "local" disk, as well as a variety of cloud
-    | based disks are available to your application for file storage.
+    | Varsayılan dosya sistemi diskiniz burada belirlenir. 'local', 'public', 
+    | veya 'uploads' gibi ayarlanabilir.
     |
     */
 
-    'default' => env('FILESYSTEM_DISK', 'local'),
+    'default' => env('FILESYSTEM_DISK', 'uploads'),
 
     /*
     |--------------------------------------------------------------------------
     | Filesystem Disks
     |--------------------------------------------------------------------------
     |
-    | Below you may configure as many filesystem disks as necessary, and you
-    | may even configure multiple disks for the same driver. Examples for
-    | most supported storage drivers are configured here for reference.
-    |
-    | Supported drivers: "local", "ftp", "sftp", "s3"
+    | Burada farklı driver'lar için birden fazla disk tanımlayabilirsiniz.
+    | local, ftp, sftp, s3 gibi desteklenen driver türleri mevcuttur.
     |
     */
 
@@ -32,8 +28,7 @@ return [
 
         'local' => [
             'driver' => 'local',
-            'root' => storage_path('app/private'),
-            'serve' => true,
+            'root' => storage_path('app'),
             'throw' => false,
             'report' => false,
         ],
@@ -41,11 +36,21 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
+            'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
             'throw' => false,
             'report' => false,
         ],
+
+        'uploads' => [
+            'driver' => 'local',
+            'root' => public_path('uploads'),
+            'url' => env('APP_URL') . '/uploads',
+            'visibility' => 'public',
+            'throw' => false,
+            'report' => false,
+        ],
+
 
         's3' => [
             'driver' => 's3',
@@ -67,9 +72,9 @@ return [
     | Symbolic Links
     |--------------------------------------------------------------------------
     |
-    | Here you may configure the symbolic links that will be created when the
-    | `storage:link` Artisan command is executed. The array keys should be
-    | the locations of the links and the values should be their targets.
+    | Eğer `php artisan storage:link` komutu çalıştırılırsa, burada ayarlanan
+    | sembolik linkler oluşturulur. Ancak biz doğrudan public/uploads kullandığımız
+    | için buraya çok da ihtiyacımız yok.
     |
     */
 
