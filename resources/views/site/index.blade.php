@@ -85,7 +85,7 @@
 
 
                         <ul>
-                
+
 
                             <li class="lifting">
                                 <a href="#home">Home</a>
@@ -99,7 +99,7 @@
                             <li class="lifting">
                                 <a href="#works">Director</a>
                             </li>
-                             <li class="lifting">
+                            <li class="lifting">
                                 <a href="#arda">News</a>
                             </li>
                             <li class="lifting">
@@ -238,13 +238,12 @@
                                                 </div><!-- col end -->
                                                 <!-- col start -->
                                                 <div class="make-space">
-                                                    <input class="requiredField subject" id="subject" name="subject"
-                                                        placeholder="Subject" type="text">
+                                                    <input class="requiredField subject" id="subject"
+                                                        name="subject" placeholder="Subject" type="text">
                                                 </div><!-- col end -->
                                                 <!-- col start -->
                                                 <div class="make-space">
-                                                    <textarea class="requiredField message" id="message" name="message"
-                                                        placeholder="Message"></textarea>
+                                                    <textarea class="requiredField message" id="message" name="message" placeholder="Message"></textarea>
                                                 </div><!-- col end -->
                                                 <div>
                                                     <!-- button start -->
@@ -466,7 +465,8 @@
                                         Length: 70 minutes <br>
                                     </div><!-- col end -->
                                     <div class="col-md-6 col-lg-6 post-block-correction mt-2">
-                                        <img src="{{ asset('assets/site/assets/goat501/film-cover.png') }}" alt="">
+                                        <img src="{{ asset('assets/site/assets/goat501/film-cover.png') }}"
+                                            alt="">
                                     </div><!-- col end -->
                                 </div><!-- post block end -->
                             </div><!-- post carousel end -->
@@ -574,7 +574,7 @@
 
 
 
- <!-- news -->
+        <!-- news -->
         <!-- works section start -->
         <div id="arda-lifting">
             <!-- container start -->
@@ -604,25 +604,23 @@
 
                             </h2><!-- page subtitle end -->
                             <!-- divider start -->
-                             <!-- divider start -->
-                                <div class="inner-divider-half"></div><!-- divider end -->
-                                <!-- owl nav start -->
-                                <div class="owl-nav owl-nav-custom-news"></div><!-- owl nav end -->
+                            <!-- divider start -->
+                            <div class="inner-divider-half"></div><!-- divider end -->
+                            <!-- owl nav start -->
+                            <div class="owl-nav owl-nav-custom-news"></div><!-- owl nav end -->
                         </div><!-- col end -->
-                        
-                        
-                        
-                        
+
+
+
+
                         <!-- col start -->
-                            <div class="col-md-8 the-first-lift">
-                                <!-- post carousel start -->
-                                <div class="owl-carousel" id="news-carousel">
-                                    
-                                    
-                                    
-                                    @foreach ($blogs as $item )
-                                        
-                                   
+                        <div class="col-md-8 the-first-lift">
+                            <!-- post carousel start -->
+                            <div class="owl-carousel" id="arda-carousel">
+
+
+
+                                @foreach ($blogs as $item)
                                     <!-- post block start -->
                                     <div class="post-block-second">
                                         <!-- mobile divider start -->
@@ -642,7 +640,8 @@
                                                         <div class="inner-divider-half"></div><!-- divider end -->
                                                         <!-- page title start -->
                                                         <div class="post-title post-title-news">
-                                                            <span class="post-title-color">{{ $item?->main_title }}</span>
+                                                            <span
+                                                                class="post-title-color">{{ $item?->main_title }}</span>
                                                         </div><!-- page title end -->
                                                         <!-- divider start -->
                                                         <div class="inner-divider-half"></div><!-- divider end -->
@@ -652,7 +651,7 @@
                                                         <div class="inner-divider-half"></div><!-- divider end -->
                                                         <!-- page TXT start -->
                                                         <p>
-                                                            {!!  $item?->desc !!}
+                                                            {!! $item?->desc !!}
                                                         </p><!-- page TXT end -->
                                                     </div><!-- col end -->
                                                     <!-- divider start -->
@@ -666,22 +665,20 @@
                                         </div><!-- col end -->
                                         <!-- mobile divider start -->
                                         <div class="inner-divider-mobile"></div><!-- mobile divider end -->
-                                       <!-- col start -->
-<div class="col-md-6 col-lg-6 post-block-correction">
-    <!-- post item IMG 1 start -->
-    <img src="{{ asset('uploads/' . $item->img) }}" alt="{{ $item->main_title ?? 'Blog Görseli' }}" class="img-fluid w-100 rounded">
-</div><!-- col end -->
+                                       <div class="col-md-6 col-lg-6 post-block-correction">
+    <img src="{{ asset('uploads/' . $item->img) }}" alt="{{ $item->main_title ?? 'Blog Görseli' }}" class="img-fluid w-100">
+</div>
 
                                     </div><!-- post block end -->
-                                    @endforeach
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                </div><!-- post carousel end -->
-                            </div><!-- col end -->
+                                @endforeach
+
+
+
+
+
+
+                            </div><!-- post carousel end -->
+                        </div><!-- col end -->
                     </div><!-- row end -->
                     <!-- mobile divider start -->
                     <div class="inner-divider-mobile"></div><!-- mobile divider end -->
@@ -691,7 +688,7 @@
         <!-- news section start -->
 
 
- <!-- news -->
+        <!-- news -->
 
         <div id="news-lifting">
             <!-- container start -->
@@ -735,10 +732,11 @@
                                     <!-- col start -->
                                     <div class="col-12 post-block-correction">
                                         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
-                                            @foreach(range(1, 7) as $i)
+                                            @foreach (range(1, 7) as $i)
                                                 <div class="col-6 col-md-4 col-lg-4">
                                                     <img src="{{ asset("assets/site/assets/goat501/award{$i}.png") }}"
-                                                        alt="Goat 501 award {{ $i }}" class="img-fluid w-100">
+                                                        alt="Goat 501 award {{ $i }}"
+                                                        class="img-fluid w-100">
                                                 </div>
                                             @endforeach
                                         </div>
@@ -978,10 +976,8 @@
         </div><!-- news modal content 4 end -->
     </div><!-- news modal 4 end --> --}}
     <!-- scripts start -->
-    <script src="{{ asset('assets/site/assets/js/plugins.js') }}" type="text/javascript">
-    </script>
-    <script src="{{ asset('assets/site/assets/js/yesex.js') }}" type="text/javascript">
-    </script><!-- scripts end -->
+    <script src="{{ asset('assets/site/assets/js/plugins.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('assets/site/assets/js/yesex.js') }}" type="text/javascript"></script><!-- scripts end -->
 </body>
 
 </html>
