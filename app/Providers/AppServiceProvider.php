@@ -18,13 +18,13 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      */
-    //  public function boot(): void
-    // {
-    //     // Yayında olan blogları global olarak paylaş
-    //     $blogs = Blog::where('is_published', true)
-    //         ->orderByDesc('created_at')
-    //         ->get();
+     public function boot(): void
+    {
+        // Yayında olan blogları global olarak paylaş
+        $blogs = Blog::where('is_published', true)
+            ->orderByDesc('created_at')
+            ->get();
 
-    //     view()->share('blogs', $blogs);
-    // }
+        view()->share('blogs', $blogs);
+    }
 }
