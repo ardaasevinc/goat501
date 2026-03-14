@@ -7,10 +7,25 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+// Gerekli kütüphaneleri ekliyoruz
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
+
+class User extends Authenticatable implements FilamentUser
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable;
+
+    /**
+     * Filament paneline kimlerin erişebileceğini belirler.
+     */
+    public function canAccessPanel(Panel $panel): bool
+    {
+        // Şimdilik herkese izin veriyoruz.
+        // Güvenlik için ileride burayı return str_ends_with($this->email, '@yourdomain.com');
+        // gibi bir mantıkla kısıtlayabilirsin.
+        return true;
+    }
 
     /**
      * The attributes that are mass assignable.
