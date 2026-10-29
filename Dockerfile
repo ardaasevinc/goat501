@@ -33,9 +33,10 @@ ENV SERVER_NAME=:8080 \
 COPY --from=paketler /app/vendor ./vendor
 COPY . .
 COPY --from=onyuz /app/public/build ./public/build
-RUN composer dump-autoload --optimize --no-dev \
+# package:discover burada çalışmaz: açılışta veritabanına bakan uygulamalar derlemede düşer.
+# Laravel paket listesini (bootstrap/cache/packages.php) ilk açılışta kendisi oluşturur.
+RUN composer dump-autoload --optimize --no-dev --no-scripts \
  && rm -f bootstrap/cache/packages.php bootstrap/cache/services.php \
- && php artisan package:discover --ansi \
  && mkdir -p storage/app/public storage/framework/cache storage/framework/sessions storage/framework/views storage/logs bootstrap/cache public/uploads \
  && ln -sfn /app/storage/app/public public/storage \
  && chown -R www-data:www-data storage bootstrap/cache public/uploads /data/caddy /config/caddy
