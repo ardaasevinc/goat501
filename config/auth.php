@@ -112,4 +112,20 @@ return [
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Yönetim paneli erişimi
+    |--------------------------------------------------------------------------
+    |
+    | Panele yalnızca bu listedeki e-postalarla giriş yapan kullanıcılar girer
+    | (User::canAccessPanel). Virgülle ayrılmış liste; boşsa kimse giremez:
+    | PANEL_ERISIM_EPOSTALARI=a@ornek.com,b@ornek.com
+    |
+    */
+
+    'panel_epostalari' => array_values(array_filter(array_map(
+        'trim',
+        explode(',', (string) env('PANEL_ERISIM_EPOSTALARI', ''))
+    ))),
+
 ];

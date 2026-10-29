@@ -21,10 +21,8 @@ class User extends Authenticatable implements FilamentUser
      */
     public function canAccessPanel(Panel $panel): bool
     {
-        // Şimdilik herkese izin veriyoruz.
-        // Güvenlik için ileride burayı return str_ends_with($this->email, '@yourdomain.com');
-        // gibi bir mantıkla kısıtlayabilirsin.
-        return true;
+        // Panele yalnızca PANEL_ERISIM_EPOSTALARI listesindeki e-postalar girer (config/auth.php).
+        return in_array(mb_strtolower($this->email), array_map('mb_strtolower', config('auth.panel_epostalari', [])), true);
     }
 
     /**

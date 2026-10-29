@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use App\Models\Blog;
 
@@ -20,11 +21,12 @@ class AppServiceProvider extends ServiceProvider
      */
      public function boot(): void
     {
-        // Yayında olan blogları global olarak paylaş
-        $blogs = Blog::where('is_published', true)
-            ->orderByDesc('created_at')
-            ->get();
-
-        view()->share('blogs', $blogs);
+        // Yayında olan blogları global olarak paylaş. Sorgu ancak bir view render edilince ve istek başına bir kez
+        // çalışır; böylece artisan komutları, API istekleri ve testler (boş veritabanı) her açılışta sorgu atmaz.
+        View::composer('*', function ($view) {
+            $view->with('blogs', once(fn () => Blog::where('is_published', true)
+                ->orderByDesc('created_at')
+                ->get()));
+        });
     }
 }
