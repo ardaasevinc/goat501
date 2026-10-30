@@ -20,11 +20,12 @@ class AppServiceProvider extends ServiceProvider
      */
      public function boot(): void
     {
-        // Yayında olan blogları global olarak paylaş
-        $blogs = Blog::where('is_published', true)
-            ->orderByDesc('created_at')
-            ->get();
-
-        view()->share('blogs', $blogs);
+        // Yayında olan bloglar bütün görünümlerde: ilk görünüm çizilirken bir kez sorgulanır.
+        // (Açılışta sorgulanmaz: migrate gibi komutlar boş veritabanında da çalışır.)
+        view()->composer('*', function ($view) {
+            static $blogs = null;
+            $blogs ??= Blog::where('is_published', true)->orderByDesc('created_at')->get();
+            $view->with('blogs', $blogs);
+        });
     }
 }
